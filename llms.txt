@@ -1,0 +1,19 @@
+# missed-call-text-back
+
+> Free, open-source, zero-dependency Python tool that reads a call log and plans instant SMS text-backs for missed calls (quiet hours, duplicate merging, urgent voicemail priority, industry templates). Optional Twilio-compatible webhook.
+
+## Key files
+- README.md: overview, quickstart, FAQ
+- mctb_core.py: planning engine (filtering, dedupe, scheduling, rendering)
+- mctb_templates.py: SMS wording per industry
+- mctb_cli.py: `plan`, `demo`, `templates`, `serve` commands
+- mctb_webhook.py: optional Twilio webhook with signature check, dry-run by default
+- example_calls.csv, example_config.json: fictional sample inputs
+- COMPLIANCE.md: SMS consent and opt-out notes (not legal advice)
+- test_core.py: 15 unit tests
+
+## Quickstart
+python mctb.py demo
+
+## License
+MIT

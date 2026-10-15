@@ -1,0 +1,14 @@
+timestamp,caller,status,name,voicemail,direction
+2026-10-10 10:00:00,+15550100108,missed,Old Lead,,inbound
+2026-10-14 08:12:00,(555) 010-0101,missed,Maria,,inbound
+2026-10-14 08:30:00,+1 555 010 0101,no-answer,Maria,,inbound
+2026-10-14 09:40:00,+15550100102,voicemail,,"my AC is making a loud noise can someone look at it this week",inbound
+2026-10-14 11:05:00,+15550100103,missed,,,inbound
+2026-10-14 11:50:00,+15550100103,answered,,,outbound
+2026-10-14 14:00:00,+15550100106,busy,Priya,,inbound
+2026-10-14 17:42:00,+15550100104,voicemail,Dan,"no heat in the house and the kids are home",inbound
+2026-10-14 22:15:00,5550100105,missed,,,inbound
+2026-10-14 12:00:00,12345,missed,,,inbound
+2026-10-14 13:00:00,+15550100199,missed,Blocked Caller,,inbound
+2026-10-14 15:00:00,+15550100150,missed,Owner Cell,,inbound
+2026-10-15 05:30:00,+15550100107,missed,,,inbound

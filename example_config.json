@@ -1,0 +1,17 @@
+{
+  "business_name": "Sample Comfort HVAC",
+  "industry": "hvac",
+  "utc_offset_hours": -5,
+  "default_country_code": "1",
+  "hours": {
+    "mon": ["08:00", "17:00"], "tue": ["08:00", "17:00"], "wed": ["08:00", "17:00"],
+    "thu": ["08:00", "17:00"], "fri": ["08:00", "17:00"], "sat": null, "sun": null
+  },
+  "quiet_start": "21:00",
+  "quiet_end": "08:00",
+  "booking_link": "",
+  "do_not_text": ["+1 555 010 0199"],
+  "internal_numbers": ["+1 555 010 0150"],
+  "avg_job_value": 450,
+  "assumed_recovery_rate": 0.15
+}

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "missed-call-text-back"
+version = "0.1.0"
+description = "Open-source missed call text back planner for service businesses: offline, zero dependencies."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [{name = "Muhammad Waqas"}]
+keywords = ["missed-call-text-back", "sms", "twilio", "lead-response", "small-business", "automation"]
+
+[tool.setuptools]
+py-modules = ["mctb", "mctb_core", "mctb_cli", "mctb_templates", "mctb_webhook"]

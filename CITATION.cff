@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "missed-call-text-back"
+version: 0.1.0
+date-released: 2026-10-15
+license: MIT
+authors:
+  - family-names: Waqas
+    given-names: Muhammad
+repository-code: "https://github.com/Waqas-Ai-Engineer/missed-call-text-back"
+abstract: "Open-source Python tool that plans instant SMS text-backs for missed calls."
